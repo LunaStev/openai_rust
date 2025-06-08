@@ -16,7 +16,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-openai_rust = "0.3.0"
+openai_rust = { package = "openai_rust_sdk", version = "0.3.0" }
 ```
 
 ## Quickstart
