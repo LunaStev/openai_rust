@@ -1,0 +1,18 @@
+[package]
+name = "openai_rust"
+version = "0.3.0"
+edition = "2021"
+authors = ["LunaStev <lunastev@gurmstudios.com>"]
+description = "WSON data serialization parser "
+license = "MIT"
+repository = "https://github.com/LunaStev/openai_rust"
+publish = true
+
+[lib]
+name = "openai_rust"
+path = "src/lib.rs"
+
+[dependencies]
+reqwest = { version = "0.12.19", features = ["json", "multipart", "blocking", "stream"] }
+serde_json = "1.0.140"
+tokio = { version = "1.45.1", features = ["macros", "rt-multi-thread"] }
