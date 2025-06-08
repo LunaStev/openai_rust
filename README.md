@@ -77,7 +77,7 @@ cargo run --example 03_audio
 
 ## License
 
-MIT License
+[MIT License](LICENSE)
 
 ---
 
