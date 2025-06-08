@@ -16,7 +16,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-openai_rust = { package = "openai_rust_sdk", version = "0.3.0" }
+openai-rusty = "0.3.0"
 ```
 
 ## Quickstart
@@ -54,7 +54,7 @@ async fn main() {
 ### Audio Transcription
 
 ```rust
-use openai_rust::{openai_init, openai_transcribe_audio};
+use openai-rusty::{openai_init, openai_transcribe_audio};
 
 #[tokio::main]
 async fn main() {
