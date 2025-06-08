@@ -1,6 +1,6 @@
 # OpenAI Rust
 
-A minimal, modern, async-first Rust wrapper for the OpenAI API. Inspired by the simplicity of C libraries, reimagined in safe, clean Rust.
+A minimal, modern, async-first Rust wrapper for the OpenAI API.
 
 ## Features
 
